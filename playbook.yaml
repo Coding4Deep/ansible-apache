@@ -1,0 +1,7 @@
+---
+- name: "Playbook for Ansible"
+  hosts: all
+  become: true
+  roles:
+    - myrole
+   
