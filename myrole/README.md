@@ -1,38 +1,53 @@
-Role Name
-=========
 
-A brief description of the role goes here.
+---
 
-Requirements
-------------
+# Ansible Role: Static Portfolio Web Deployment on RHEL
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+## Description
 
-Role Variables
---------------
+This Ansible role is designed to **install Apache HTTP Server (httpd)** on a **RHEL-based Linux system** and deploy a **static portfolio website**. It is ideal for simple personal or demo projects where you want to showcase a static HTML-based portfolio through an automated provisioning process.
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+> 🔧 This role is optimized for Red Hat Enterprise Linux and its derivatives (such as CentOS, Rocky, AlmaLinux, etc.).
 
-Dependencies
-------------
+## Features
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+- Installs `httpd` (Apache)
+- Ensures the service is started and enabled on boot
+- Deploys a static website to `/var/www/html/`
+- Fully automated setup with minimal input
 
-Example Playbook
-----------------
+## Screenshots
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
+Below are preview screenshots of the deployed website:
 
-    - hosts: servers
-      roles:
-         - { role: username.rolename, x: 42 }
+### Home Page
+![Screenshot 1](Screenshot1.png)
 
-License
--------
+### Portfolio Section
+![Screenshot 2](Screenshot2.png)
 
-BSD
 
-Author Information
-------------------
+## Requirements
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+- Target host must be RHEL/CentOS/Rocky/AlmaLinux
+- Ansible 2.9 or later
+- Root privileges (via `become: true`)
+
+## Role Variables
+This role currently does not require any custom variables. All defaults are set within the role.
+
+
+
+## License
+MIT
+
+## Author Information
+
+This role was created by [Coding4Deep](https://github.com/Coding4Deep) as a simple demo for Ansible role development and deployment.
+
+---
+
+```
+
+Let me know if you’d also like to generate the required `meta/main.yml`, `tasks/main.yml`, or sample static website files to complete this role.
+```
