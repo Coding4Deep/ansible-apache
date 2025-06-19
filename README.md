@@ -46,8 +46,3 @@ MIT
 This role was created by [Coding4Deep](https://github.com/Coding4Deep) as a simple demo for Ansible role development and deployment.
 
 ---
-
-```
-
-Let me know if you’d also like to generate the required `meta/main.yml`, `tasks/main.yml`, or sample static website files to complete this role.
-```
