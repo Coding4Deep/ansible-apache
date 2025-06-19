@@ -21,12 +21,11 @@ This Ansible role is designed to **install Apache HTTP Server (httpd)** on a **R
 Below are preview screenshots of the deployed website:
 
 ### Home Page
-![Screenshot 1](screenshot1/screenshot1.png)
+![Screenshot 1](Screenshot1.png)
 
 ### Portfolio Section
-![Screenshot 2](screenshot2/screenshot2.png)
+![Screenshot 2](Screenshot2.png)
 
-_Note: Screenshots will be available in the respective folders once uploaded._
 
 ## Requirements
 
